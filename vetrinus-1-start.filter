@@ -3,7 +3,7 @@
 # [ENG] Forum post: https://www.pathofexile.com/forum/view-thread/2094486
 # [RUS] Forum post: https://ru.pathofexile.com/forum/view-thread/30770
 # League: Incursion. Path of Exile 3.3.1 (release date: 2018-07-03)
-# Last modification 23.08.2018 08:00:00
+# Last modification 25.08.2018 19:00:00
 
 # Section list: using symbol "@" in search allows navigate to section.
 ## [1] Currency
@@ -33,22 +33,14 @@
 ## 2 - mid: no low drop level items, no big RGB recipes
 ## 3 - chaos recipe: no identified rare items, no magic jewels, no gems, no big weapons, no utility flasks
 ## 4 - late: no chaos recipes, gems 10+ quality, no wisdom scrolls, no 5 sockets
-## 5 - party: no chisel recipes, no rgb, nothing lower than alchemy, no cheap uniques, no cheap divination cards, no 84+ ilvl items, no flasks, gems 15+ quality
+## 5 - party: gems 15+ quality, no chisel recipes, no rgb, nothing lower than alchemy, no cheap uniques, no cheap divination cards, no 84+ ilvl items, no flasks, gems 15+ quality
 
-# Code convention:
-# - use 4 lines between sections;
-# - use ## in section's section;
+# Hints:
 # "Hidden" - this tip helps you to decide when you should stop showing lowlevel items:
 ## "HiddenStart" - you want to see these items from game start till midgame;
 ## "HiddenMid" - you want to see these items till lategame;
 ## "HiddenLate" - you want to see these items till you join party (uberfast clearspeed);
 ## Use "Ctrl + H" to replace the "show hidden" to "hide hidden" fast.
-
-# PlayAlertSound convention: 
-## PlayAlertSound 5 if 1+ divine 
-## PlayAlertSound 1 if 10+ chaos 
-## PlayAlertSound 10 if 2+ chaos 
-## PlayAlertSound 3 if 1 chaos 
 
 # Alert sounds convention: can use "ItemFilterAlert10" instead "10".
 ## PlayAlertSound 1 300 
@@ -158,13 +150,13 @@ Show
 
 Show
 	BaseType "Orb of Annulment" "Orb of Binding" "Orb of Horizons" "Harbinger's Orb" "Engineer's Orb" "Ancient Orb"
-    SetTextColor 0 100 0
-    SetBackgroundColor 0 255 0
-    SetBorderColor 0 100 0
+    SetTextColor 0 204 0
+    SetBackgroundColor 15 84 15
+    SetBorderColor 130 158 130
     SetFontSize 45
     PlayAlertSound 5 300 
 
-Show # HiddenMid
+Show # HiddenLate
     BaseType "Portal Scroll"
 	SetBorderColor 122 87 185
 	SetBackgroundColor 49 33 78
@@ -652,6 +644,7 @@ Show
 ## @Breach League
 ### Breach currency
 
+### 2+ chaos splinter
 Show
     Class Currency
     BaseType "Splinter of Chayula"
@@ -660,7 +653,7 @@ Show
 	SetBackgroundColor 0 0 0
     SetFontSize 45
 	PlayAlertSound 3 300 
-	
+
 Show
     Class Currency
     BaseType "Splinter"
@@ -669,6 +662,15 @@ Show
 	SetBackgroundColor 70 35 70
     SetFontSize 44
 	PlayAlertSound 2 300 
+
+### A ring from Breaches
+Show
+	Class "Ring"
+	BaseType "Breach Ring"
+	SetBorderColor 255 0 128
+	SetBackgroundColor 100 0 0
+    SetFontSize 38
+    PlayAlertSound 2 300 
 
 ## @Talisman League
 ### Talismans
@@ -715,15 +717,23 @@ Show
     PlayAlertSound 3 300 
 
 Show
-    Quality >= 10
+    Quality >= 15
     Class "Gem"
     SetFontSize 45
     SetBorderColor 27 162 155
 	SetBackgroundColor 5 40 35 255
     PlayAlertSound 16 300 
 
+Show # HiddenLate
+    Quality >= 10
+    Class "Gem"
+    SetFontSize 40
+    SetBorderColor 27 162 155
+	SetBackgroundColor 5 40 35 255
+    PlayAlertSound 16 300 
+
 ## We want everything
-Show # HiddenMid
+Show # HiddenLate
     Quality >= 1
     Class "Gem"
     SetFontSize 36
@@ -1177,15 +1187,6 @@ Show
     SetFontSize 45
 	PlayAlertSound 14 300 
 
-## A ring from Breach League
-Show
-	Class "Ring"
-	BaseType "Breach Ring"
-	SetBorderColor 255 0 128
-	SetBackgroundColor 100 0 0
-    SetFontSize 38
-    PlayAlertSound 2 300 
-
 ## Top price unique jewels... Well, it has no reason as it is only 4 types of jewels. Need to filter by item name
 Show
 	BaseType "Prismatic Jewel" "Crimson Jewel" "Viridian Jewel" "Cobalt Jewel"
@@ -1376,7 +1377,7 @@ Show # HiddenStart
     SetBackgroundColor 0 0 0
     SetTextColor 0 255 255
 	SetFontSize 32
-
+	
 Show # HiddenStart
 	ItemLevel >= 40
     Rarity Normal
@@ -1448,17 +1449,7 @@ Show
 ## Extremely expensive divination cards
 Show
     Class Card
-	BaseType "The Doctor" "Chaotic Disposition" "House of Mirrors" "The Fiend" "The Immortal" "The Wolven King's Bite" "The Queen" "Hunter's Reward" "Abandoned Wealth" "The Formless Sea" "The Wolf" "The Last One Standing" "The Spark and the Flame" "The Dragon's Heart" "The Valkyrie" "The Brittle Emperor" "Wealth and Power" "The King's Heart" "The Wind" "Pride Before the Fall" "The Standoff"
-    SetTextColor 204 195 172
-    SetBackgroundColor 84 63 15
-    SetBorderColor 170 158 130
-    SetFontSize 45
-    PlayAlertSound 5 300 
-
-## 3.2 divination cards
-Show
-    Class Card
-	BaseType "The Insatiable" "The Obscured" "The Iron Bard" "Forbidden Power" "The Breach" "The Dreamer" "The World Eater" "The Deceiver" "Blessing of God" "The Puzzle"
+	BaseType "The Doctor" "Chaotic Disposition" "House of Mirrors" "The Fiend" "The Immortal" "The Wolven King's Bite" "The Queen" "Hunter's Reward" "Abandoned Wealth" "The Formless Sea" "The Wolf" "The Last One Standing" "The Spark and the Flame" "The Dragon's Heart" "The Valkyrie" "The Brittle Emperor" "Wealth and Power" "The King's Heart" "The Wind" "Pride Before the Fall" "The Standoff" "The Insatiable" "The Iron Bard" "The World Eater" "Blessing of God"
     SetTextColor 204 195 172
     SetBackgroundColor 84 63 15
     SetBorderColor 170 158 130
@@ -1468,7 +1459,7 @@ Show
 ## 2+ chaos divination cards
 Show
     Class Card
-	BaseType "The Artist" "The Saint's Treasure" "The Hunger" "The Thaumaturgist" "Heterochromia" "Last Hope" "The Celestial Justicar" "Time-Lost Relic" "The Sephirot" "The Vast" "The Cursed King" "The Enlightened" "The Hoarder" "The Risk" "The Valley of Steel Boxes" "The Void" "Bowyer's Dream" "The Offering" "The Cartographer"
+	BaseType "The Artist" "The Saint's Treasure" "The Hunger" "The Thaumaturgist" "Heterochromia" "Last Hope" "The Celestial Justicar" "Time-Lost Relic" "The Sephirot" "The Vast" "The Cursed King" "The Enlightened" "The Hoarder" "The Risk" "The Valley of Steel Boxes" "The Void" "Bowyer's Dream" "The Offering" "The Cartographer" "The Puzzle" "The Breach" "The Dreamer" "The Obscured"
     SetTextColor 204 195 172
     SetBackgroundColor 84 63 15
     SetBorderColor 170 158 130
@@ -1526,7 +1517,7 @@ Show # HiddenStart
 	BaseType "Crimson Jewel"
     Identified False
     SetFontSize 36
-    PlayAlertSound 7 150 
+    #PlayAlertSound 7 150 
 	SetBorderColor 180 60 60 255
 	SetBackgroundColor 100 40 40
 	SetTextColor 255 136 136 255
@@ -1536,7 +1527,7 @@ Show # HiddenStart
 	BaseType "Viridian Jewel"
     Identified False
     SetFontSize 36
-    PlayAlertSound 7 150 
+    #PlayAlertSound 7 150 
 	SetBorderColor 60 180 60 255
 	SetBackgroundColor 40 100 40
 	SetTextColor 136 255 136 255
@@ -1545,7 +1536,7 @@ Show # HiddenStart
     Class "Jewel"
     Identified False
     SetFontSize 36
-    PlayAlertSound 7 150 
+    #PlayAlertSound 7 150 
 	SetBorderColor 60 60 180 255
 	SetBackgroundColor 40 40 100
 Show # HiddenStart
@@ -1554,7 +1545,7 @@ Show # HiddenStart
 	BaseType "Viridian Jewel"
     Identified True
     SetFontSize 30
-    PlayAlertSound 7 150 
+    #PlayAlertSound 7 150 
 	SetBorderColor 60 180 60 255
 	SetBackgroundColor 20 50 20
 Show # HiddenStart
@@ -1563,7 +1554,7 @@ Show # HiddenStart
 	BaseType "Crimson Jewel"
     Identified True
     SetFontSize 30
-    PlayAlertSound 7 150 
+    #PlayAlertSound 7 150 
 	SetBorderColor 180 60 60 255
 	SetBackgroundColor 50 20 20
 Show # HiddenStart
@@ -1571,7 +1562,7 @@ Show # HiddenStart
     Class "Jewel"
     Identified True
     SetFontSize 30
-    PlayAlertSound 7 150 
+    #PlayAlertSound 7 150 
 	SetBorderColor 60 60 180 225
 	SetBackgroundColor 20 20 50
 
@@ -1606,7 +1597,7 @@ Show
     PlayAlertSound 12 300 
 
 ## Utility 10+ quality flasks
-Show
+Show # HiddenLate
     Class "Utility Flasks" "Critical Utility Flasks"
 	Rarity <= Magic
     Quality >= 10
@@ -1637,7 +1628,7 @@ Show
 	PlayAlertSound 12 300 
 
 ## Life 10+ quality flask
-Show
+Show # HiddenLate
 	Quality >= 10
 	Class "Life Flasks"
     Rarity <= Magic
@@ -1659,7 +1650,7 @@ Show
 	PlayAlertSound 12 300 
 
 ## Mana 10+ quality flask
-Show
+Show # HiddenLate
 	Quality >= 10
 	Class "Mana Flasks"
 	Rarity <= Magic
@@ -1681,7 +1672,7 @@ Show
 	PlayAlertSound 12 300 
 
 ## Hybrid 10+ quality flask
-Show
+Show # HiddenLate
 	Quality >= 10
 	Class "Hybrid Flasks"
 	Rarity <= Magic
@@ -1795,15 +1786,6 @@ Show # HiddenLate
 	SetBackgroundColor 0 0 0
 	SetBackgroundColor 0 0 0 200
 	SetBorderColor 255 133 0
-
-## my preferable
-Show
-	ItemLevel > 83	
-	BaseType "Titanium Spirit Shield" "Vaal Regalia" "Hubris Circlet"
-	SetBackgroundColor 0 0 0
-	SetBackgroundColor 0 0 0 200
-	SetBorderColor 255 133 0
-	SetFontSize 38
 
 Show # HiddenLate
     ItemLevel >= 84
@@ -2176,7 +2158,7 @@ Show # HiddenLate
 	SetBorderColor 0 0 0
 	SetFontSize 36
 	PlayAlertSound 2 300 
-Show # HiddenLate
+Show # HiddenStart
 	DropLevel <= 40
 	ItemLevel <= 40
 	Rarity < Unique
@@ -2565,22 +2547,25 @@ Show # HiddenLate
 	SetBackgroundColor 17 17 17 255
 	SetFontSize 28
 
-Show # HiddenStart
+## 60- ilvl опознанные редкие предметы
+Show # HiddenLate
 	ItemLevel < 60
     Rarity Rare
 	Identified True
 	SetFontSize 28
 	SetTextColor 231 180 120
 
-Show # HiddenMid
+## Опознанные редкие предметы
+Show # HiddenLate
     Rarity Rare
 	Identified True
 	SetFontSize 30
 	SetTextColor 231 180 120
 
-## Hiding trash
 
-############################################################################	
+
+
+## Hiding trash
 
 Show # HiddenStart
     Rarity Rare
@@ -2590,14 +2575,11 @@ Show # HiddenStart
 	SetBorderColor 255 242 0 150
 	SetFontSize 28
 	
-##### SHIELDS	!!
 Show # HiddenStart
 	Class "Shields"
 	BaseType "Spirit Shield"
 	Rarity Rare
 	Identified False
-
-
 
 Show # HiddenStart
 	Class "Claws" "Daggers" "Wands" "One Hand Swords" "Thrusting One Hand Swords" "One Hand Axes" "One Hand Maces" "Staves" "Two Hand Swords" "Two Hand Axes" "Two Hand Maces" "Shields" "Sceptres"
@@ -2634,6 +2616,9 @@ Show # HiddenStart
 	Identified True
     SetBackgroundColor 17 17 17 150
     SetFontSize 26
+
+
+
 
 ## Hiding everything else of little to no value.
 
