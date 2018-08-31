@@ -250,7 +250,7 @@ Show # HiddenLate
 	SetBackgroundColor 49 33 78
     SetFontSize 36
 
-Show # HiddenStart
+Hide # HiddenStart
     BaseType "Scroll of Wisdom"
 	SetBackgroundColor 40 25 25
     SetFontSize 36
@@ -462,7 +462,7 @@ Show # HiddenLate
 	SetBackgroundColor 50 40 25
     SetFontSize 40
 
-Show # HiddenMid
+Hide # HiddenMid
 	Class Currency
 	BaseType "Scroll Fragment" "Alteration Shard" "Transmutation Shard"
 	SetBorderColor 160 100 80
@@ -1126,7 +1126,7 @@ Show
     PlayAlertSound 5 300
 
 ## Items I am looking for
-Show # HiddenMid
+Hide # HiddenMid
 	Class Gem
     BaseType "Cast when Damage Taken" "Clarity" "Immortal Call" "Vaal Haste" "Vaal Grace"
 	SetBackgroundColor 0 40 20
@@ -1195,7 +1195,7 @@ Show # HiddenLate
 ## Active Skill Gems
 # †--------------------------------------†
 
-Show # HiddenStart # Active Gems: str
+Hide # HiddenStart # Active Gems: str
 	Class "Gem"
 	BaseType "Abyssal Cry" "Ancestral Protector" "Ancestral Warchief" "Anger" "Animate Guardian" "Cleave" "Decoy Totem" "Determination" "Devouring Totem" "Dominating Blow" "Earthquake" "Enduring Cry" "Flame Totem" "Glacial Hammer" "Ground Slam" "Heavy Strike" "Herald of Ash" "Ice Crash" "Immortal Call" "Infernal Blow" "Leap Slam" "Molten Shell" "Molten Strike" "Punishment" "Purity of Fire" "Rallying Cry" "Reckoning" "Rejuvenation Totem" "Searing Bond" "Shield Charge" "Shockwave Totem" "Static Strike" "Summon Flame Golem" "Summon Stone Golem" "Sunder" "Sweep" "Vengeance" "Vigilant Strike" "Vitality" "Vulnerability" "Warlord's Mark" "Tectonic Slam"
 	SetFontSize 32
@@ -1203,7 +1203,7 @@ Show # HiddenStart # Active Gems: str
 	SetBorderColor 11 188 142
 	SetTextColor 11 188 140
 	
-Show # HiddenStart # Active Gems: dex
+Hide # HiddenStart # Active Gems: dex
 	Class "Gem"
 	BaseType "Animate Weapon" "Arctic Armour" "Barrage" "Bear Trap" "Blade Flurry" "Blade Vortex" "Bladefall" "Blast Rain" "Blink Arrow" "Blood Rage" "Burning Arrow" "Caustic Arrow" "Charged Dash" "Cremation" "Cyclone" "Desecrate" "Detonate Dead" "Double Strike" "Dual Strike" "Elemental Hit" "Ethereal Knives" "Explosive Arrow" "Fire Trap" "Flicker Strike" "Freeze Mine" "Frenzy" "Frost Blades" "Grace" "Haste" "Hatred" "Herald of Ice" "Ice Shot" "Ice Trap" "Lacerate" "Lightning Arrow" "Lightning Strike" "Mirror Arrow" "Phase Run" "Poacher's Mark" "Projectile Weakness" "Puncture" "Purity of Ice" "Rain of Arrows" "Reave" "Riposte" "Shrapnel Shot" "Siege Ballista" "Smoke Mine" "Spectral Throw" "Split Arrow" "Summon Ice Golem" "Temporal Chains" "Tornado Shot" "Unearth" "Viper Strike" "Volatile Dead" "Whirling Blades" "Wild Strike" "Spectral Shield Throw" "Flamethrower Trap" "Seismic Trap" "Explosive Trap"
 	SetFontSize 32
@@ -1211,7 +1211,7 @@ Show # HiddenStart # Active Gems: dex
 	SetBorderColor 11 188 142
 	SetTextColor 11 188 140
 	
-Show # HiddenStart # Active Gems: int
+Hide # HiddenStart # Active Gems: int
 	Class "Gem"
 	BaseType "Arc" "Arctic Breath" "Assassin's Mark" "Ball Lightning" "Blight" "Bodyswap" "Bone Offering" "Clarity" "Cold Snap" "Conductivity" "Contagion" "Conversion Trap" "Convocation" "Dark Pact" "Despair" "Discharge" "Discipline" "Elemental Weakness" "Enfeeble" "Essence Drain" "Fire Nova Mine" "Fireball" "Firestorm" "Flame Dash" "Flame Surge" "Flameblast" "Flammability" "Flesh Offering" "Freezing Pulse" "Frost Bomb" "Frost Wall" "Frostbite" "Frostbolt" "Glacial Cascade" "Herald of Thunder" "Ice Nova" "Ice Spear" "Incinerate" "Kinetic Blast" "Lightning Tendrils" "Lightning Trap" "Lightning Warp" "Magma Orb" "Orb of Storms" "Power Siphon" "Purity of Elements" "Purity of Lightning" "Raise Spectre" "Raise Zombie" "Righteous Fire" "Scorching Ray" "Shock Nova" "Spark" "Spirit Offering" "Storm Burst" "Storm Call" "Summon Chaos Golem" "Summon Lightning Golem" "Summon Raging Spirit" "Summon Skeleton" "Tempest Shield" "Vortex" "Wither" "Wrath" "Siphoning Trap" "Lightning Spire Trap"
 	SetFontSize 32
@@ -1224,7 +1224,7 @@ Show # HiddenStart # Active Gems: int
 ## Support Skill Gems
 # †--------------------------------------†
 
-Show # HiddenStart # Support Gems: str # "Cast when Damage Taken Support"
+Hide # HiddenStart # Support Gems: str # "Cast when Damage Taken Support"
 	Class "Gem"
 	BaseType "Added Fire Damage Support" "Ancestral Call Support" "Blood Magic Support" "Bloodlust Support" "Brutality Support" "Burning Damage Support" "Cast on Melee Kill Support" "Chance to Bleed Support" "Cold to Fire Support" "Damage on Full Life Support" "Elemental Damage with Attacks Support" "Empower Support" "Endurance Charge on Melee Stun Support" "Fire Penetration Support" "Fortify Support" "Generosity Support" "Increased Duration Support" "Iron Grip Support" "Iron Will Support" "Knockback Support" "Less Duration Support" "Life Gain on Hit Support" "Life Leech Support" "Maim Support" "Melee Physical Damage Support" "Melee Splash Support" "Multistrike Support" "Ranged Attack Totem Support" "Reduced Mana Support" "Ruthless Support" "Spell Totem Support" "Stun Support"
 	SetFontSize 36
@@ -1232,7 +1232,7 @@ Show # HiddenStart # Support Gems: str # "Cast when Damage Taken Support"
 	SetBorderColor 50 230 100
 	SetTextColor 50 230 100
 	
-Show # HiddenStart # Support Gems: dex
+Hide # HiddenStart # Support Gems: dex
 	Class "Gem"
 	BaseType "Added Cold Damage Support" "Additional Accuracy Support" "Blind Support" "Block Chance Reduction Support" "Cast On Critical Strike Support" "Cast on Death Support" "Chain Support" "Chance to Flee Support" "Cluster Traps Support" "Cold Penetration Support" "Culling Strike Support" "Deadly Ailments Support" "Enhance Support" "Faster Attacks Support" "Faster Projectiles Support" "Fork Support" "Greater Multiple Projectiles Support" "Hypothermia Support" "Ice Bite Support" "Lesser Multiple Projectiles Support" "Lesser Poison Support" "Mana Leech Support" "Mirage Archer Support" "Multiple Traps Support" "Onslaught Support" "Physical Projectile Attack Damage Support" "Pierce Support" "Point Blank Support" "Poison Support" "Slower Projectiles Support" "Swift Affliction Support" "Trap and Mine Damage Support" "Trap Support" "Vile Toxins Support" "Void Manipulation Support" "Volley Support" "Charged Traps Support" "Advanced Traps Support"
 	SetFontSize 36
@@ -1240,7 +1240,7 @@ Show # HiddenStart # Support Gems: dex
 	SetBorderColor 50 230 100
 	SetTextColor 50 230 100
 	
-Show # HiddenStart # Support Gems: int # "Added Chaos Damage"
+Hide # HiddenStart # Support Gems: int # "Added Chaos Damage"
 	Class "Gem"
 	BaseType "Added Lightning Damage Support" "Arcane Surge Support" "Blasphemy Support" "Cast when Stunned Support" "Cast while Channelling Support" "Concentrated Effect Support" "Controlled Destruction Support" "Curse On Hit Support" "Decay Support" "Efficacy Support" "Elemental Focus Support" "Elemental Proliferation Support" "Enlighten Support" "Faster Casting Support" "Ignite Proliferation Support" "Immolate Support" "Increased Area of Effect Support" "Increased Critical Damage Support" "Increased Critical Strikes Support" "Innervate Support" "Item Rarity Support" "Lightning Penetration Support" "Minefield Support" "Minion and Totem Elemental Resistance Support" "Minion Damage Support" "Minion Life Support" "Minion Speed Support" "Physical to Lightning Support" "Power Charge On Critical Support" "Remote Mine Support" "Spell Cascade Support" "Spell Echo Support" "Storm Barrier Support" "Unbound Ailments Support" "Summon Phantasm on Kill Support" "Combustion Support"
 	SetFontSize 36
@@ -1414,7 +1414,7 @@ Show
 
 # Useful for gem Leveling.
 
-Show # HiddenMid
+Hide # HiddenMid
 	Sockets >= 3
 	Rarity <= Rare
 	Class Wands Daggers One Hand Shields Thrusting Sceptre Claws
@@ -1422,7 +1422,7 @@ Show # HiddenMid
 	SetFontSize 40
 	SetBorderColor 0 240 190 240
 
-Show # HiddenMid
+Hide # HiddenMid
 	Sockets >= 3
 	Rarity < Rare
 	Class Wands Daggers One Hand Shields Thrusting Sceptre Claws
@@ -1437,7 +1437,7 @@ Show # HiddenMid
 # Section: [12] @Corruption "Сщккгзешщт
 # †-----------------------------------------------------------------------------†
 
-Show # HiddenStart
+Hide # HiddenStart
 	Rarity Normal
 	LinkedSockets < 6
 	Sockets < 6
@@ -1447,7 +1447,7 @@ Show # HiddenStart
 	SetFontSize 32
 	PlayAlertSound 8
 
-Show # HiddenStart
+Hide # HiddenStart
 	Rarity Magic
 	LinkedSockets < 6
 	Sockets < 6
@@ -1585,7 +1585,7 @@ Show # HiddenLate
     PlayAlertSound 13 150
 
 ## Sockets: 5 normal
-Show # HiddenStart
+Hide # HiddenStart
 	Rarity < Magic
 	Sockets 5
 	LinkedSockets <= 4
@@ -1597,7 +1597,7 @@ Show # HiddenStart
 	SetTextColor 200 200 180 255
 	
 ## Sockets: 5 magic
-Show # HiddenStart
+Hide # HiddenStart
 	Rarity < Rare
 	Sockets 5
 	LinkedSockets <= 4
@@ -1609,7 +1609,7 @@ Show # HiddenStart
 	SetTextColor 180 180 235 255
 
 ## Sockets: 5 rare
-Show # HiddenMid
+Hide # HiddenMid
 	Rarity < Unique
 	Sockets 5
 	LinkedSockets <= 4
@@ -1813,7 +1813,7 @@ Show # HiddenLate
     PlayAlertSound 2 300
 	SetFontSize 36
 
-Show # HiddenStart
+Hide # HiddenStart
 	ItemLevel >= 40
     Rarity Normal
 	Corrupted False
@@ -1823,7 +1823,7 @@ Show # HiddenStart
 	SetFontSize 32
 
 ### Chancing leather belts in Zana's Nemesis mod craft maps to get Headhunter.
-Show # HiddenStart
+Hide # HiddenStart
 	ItemLevel >= 40
     Rarity Normal
     BaseType "Leather Belt"
@@ -1849,7 +1849,7 @@ Show # HiddenLate
 	SetBorderColor 255 255 255 255
 	SetBackgroundColor 75 75 75 255
 
-Show # HiddenMid
+Hide # HiddenMid
 	Corrupted False
 	Quality > 17
 	Rarity Magic
@@ -1858,7 +1858,7 @@ Show # HiddenMid
     SetBorderColor 200 200 200
 	SetBackgroundColor 0 0 0 200
 
-Show # HiddenMid
+Hide # HiddenMid
 	Corrupted False
 	Quality > 14
 	Rarity Normal
@@ -1867,7 +1867,7 @@ Show # HiddenMid
     SetBorderColor 200 200 200
 	SetBackgroundColor 0 0 0 200
 
-Show # HiddenMid
+Hide # HiddenMid
 	Corrupted False
 	Quality > 11
 	Rarity Magic
@@ -1876,7 +1876,7 @@ Show # HiddenMid
     SetBorderColor 200 200 200
 	SetBackgroundColor 0 0 0 200
 
-Show # HiddenMid
+Hide # HiddenMid
 	Corrupted False
 	Rarity Normal
 	BaseType "Gavel" "Rock Breaker" "Stone Hammer"
@@ -1891,7 +1891,7 @@ Show # HiddenMid
 # Section: [18] @RGB "кпи
 # †-----------------------------------------------------------------------------†
 
-Show # HiddenMid
+Hide # HiddenMid
     SocketGroup "RGB"
     Height 3
     Width 1
@@ -1899,7 +1899,7 @@ Show # HiddenMid
 	SetBackgroundColor 0 0 0
     SetFontSize 36
 
-Show # HiddenMid
+Hide # HiddenMid
     SocketGroup "RGB"
     Height 2
     Width 2
@@ -1907,7 +1907,7 @@ Show # HiddenMid
 	SetBackgroundColor 0 0 0
     SetFontSize 33
 
-Show # HiddenStart
+Hide # HiddenStart
     SocketGroup "RGB"
     Height 4
     Width 1
@@ -1915,7 +1915,7 @@ Show # HiddenStart
 	SetBackgroundColor 0 0 0
     SetFontSize 33
 
-Show # HiddenStart
+Hide # HiddenStart
     SocketGroup "RGB"
     SetBorderColor 15 150 30
 	SetBackgroundColor 15 80 30 150
@@ -2002,7 +2002,7 @@ Show
 	SetFontSize 34
 
 ## Magic
-Show # HiddenStart
+Hide # HiddenStart
     Rarity Magic
     Class "Jewel"
 	BaseType "Crimson Jewel"
@@ -2012,7 +2012,7 @@ Show # HiddenStart
 	SetBorderColor 180 60 60 255
 	SetBackgroundColor 100 40 40
 	SetTextColor 255 136 136 255
-Show # HiddenStart
+Hide # HiddenStart
     Rarity Magic
     Class "Jewel"
 	BaseType "Viridian Jewel"
@@ -2022,7 +2022,7 @@ Show # HiddenStart
 	SetBorderColor 60 180 60 255
 	SetBackgroundColor 40 100 40
 	SetTextColor 136 255 136 255
-Show # HiddenStart
+Hide # HiddenStart
     Rarity Magic
     Class "Jewel"
     Identified False
@@ -2030,7 +2030,7 @@ Show # HiddenStart
     #PlayAlertSound 7 150
 	SetBorderColor 60 60 180 255
 	SetBackgroundColor 40 40 100
-Show # HiddenStart
+Hide # HiddenStart
     Rarity Magic
     Class "Jewel"
 	BaseType "Viridian Jewel"
@@ -2039,7 +2039,7 @@ Show # HiddenStart
     #PlayAlertSound 7 150
 	SetBorderColor 60 180 60 255
 	SetBackgroundColor 20 50 20
-Show # HiddenStart
+Hide # HiddenStart
     Rarity Magic
     Class "Jewel"
 	BaseType "Crimson Jewel"
@@ -2048,7 +2048,7 @@ Show # HiddenStart
     #PlayAlertSound 7 150
 	SetBorderColor 180 60 60 255
 	SetBackgroundColor 50 20 20
-Show # HiddenStart
+Hide # HiddenStart
     Rarity Magic
     Class "Jewel"
     Identified True
@@ -2460,7 +2460,7 @@ Show # HiddenStart
 	SetFontSize 30
 
 ## Chaos recipe: other rare unidentified items
-Show # HiddenStart
+Hide # HiddenStart
 	ItemLevel >= 60
     Rarity Rare
 	Identified False
@@ -2476,7 +2476,7 @@ Show # HiddenStart
 # †-----------------------------------------------------------------------------†
 
 ## Corrupted
-Show # HiddenStart
+Hide # HiddenStart
 	ItemLevel <= 59
 	Corrupted True
 	SetBorderColor 255 0 0 255
@@ -2485,7 +2485,7 @@ Show # HiddenStart
 	PlayAlertSound 8
 
 ## Low Level Quicksilver
-Show # HiddenStart
+Hide # HiddenStart
 	DropLevel <= 40
 	ItemLevel <= 40
     Class "Utility Flasks"
@@ -2498,7 +2498,7 @@ Show # HiddenStart
 	PlayAlertSound 12 150
 
 ## Utility flasks
-Show # HiddenStart
+Hide # HiddenStart
 	DropLevel <= 40
 	ItemLevel <= 40
     Class "Utility Flasks" "Critical Utility Flasks"
@@ -2550,7 +2550,7 @@ Show
 	SetBorderColor 0 255 255
 	SetFontSize 30
 ## /Neat items
-Show # HiddenStart
+Hide # HiddenStart
 	DropLevel <= 40
 	ItemLevel <= 40
 	Rarity < Unique
@@ -2567,7 +2567,7 @@ Show # HiddenLate
     LinkedSockets = 4
 	Sockets <= 4
 	SetFontSize 36
-Show # HiddenStart
+Hide # HiddenStart
 	DropLevel <= 40
 	ItemLevel <= 40
 	Rarity < Rare
@@ -2583,13 +2583,13 @@ Show # HiddenLate
 	SetBorderColor 0 0 0
 	SetFontSize 36
 	PlayAlertSound 2 300
-Show # HiddenStart
+Hide # HiddenStart
 	DropLevel <= 40
 	ItemLevel <= 40
 	Rarity < Unique
 	Class "Amulets" "Rings" "Belts"
     SetBackgroundColor 17 17 17 255
-Show # HiddenStart
+Hide # HiddenStart
 	DropLevel <= 59
 	ItemLevel <= 59
 	Sockets <= 4
@@ -2600,7 +2600,7 @@ Show # HiddenStart
 	SetBorderColor 0 0 0 255
 
 ## Life flasks
-Show # HiddenStart
+Hide # HiddenStart
 	DropLevel <= 65
 	ItemLevel <= 65
 	Quality > 0
@@ -2609,7 +2609,7 @@ Show # HiddenStart
     SetTextColor 255 129 129
     SetBackgroundColor 0 0 0 150
     SetBorderColor 255 129 129 150
-Show # HiddenStart
+Hide # HiddenStart
 	DropLevel <= 3
 	ItemLevel <= 3
 	Class "Life Flasks"
@@ -2617,7 +2617,7 @@ Show # HiddenStart
     Rarity <= Magic
     SetTextColor 255 129 129
     SetBackgroundColor 0 0 0 150
-Show # HiddenStart
+Hide # HiddenStart
 	DropLevel <= 6
 	ItemLevel <= 6
 	Class "Life Flasks"
@@ -2625,7 +2625,7 @@ Show # HiddenStart
     Rarity <= Magic
     SetTextColor 255 129 129
     SetBackgroundColor 0 0 0 150
-Show # HiddenStart
+Hide # HiddenStart
 	DropLevel <= 12
 	ItemLevel <= 12
 	Class "Life Flasks"
@@ -2633,7 +2633,7 @@ Show # HiddenStart
     Rarity <= Magic
     SetTextColor 255 129 129
     SetBackgroundColor 0 0 0 150
-Show # HiddenStart
+Hide # HiddenStart
 	DropLevel <= 18
 	ItemLevel <= 18
 	Class "Life Flasks"
@@ -2641,7 +2641,7 @@ Show # HiddenStart
     Rarity <= Magic
     SetTextColor 255 129 129
     SetBackgroundColor 0 0 0 150
-Show # HiddenStart
+Hide # HiddenStart
 	DropLevel <= 24
 	ItemLevel <= 24
 	Class "Life Flasks"
@@ -2649,7 +2649,7 @@ Show # HiddenStart
     Rarity <= Magic
     SetTextColor 255 129 129
     SetBackgroundColor 0 0 0 150
-Show # HiddenStart
+Hide # HiddenStart
 	DropLevel <= 30
 	ItemLevel <= 30
 	Class "Life Flasks"
@@ -2657,7 +2657,7 @@ Show # HiddenStart
     Rarity <= Magic
     SetTextColor 255 129 129
     SetBackgroundColor 0 0 0 150
-Show # HiddenStart
+Hide # HiddenStart
 	DropLevel <= 36
 	ItemLevel <= 36
 	Class "Life Flasks"
@@ -2665,7 +2665,7 @@ Show # HiddenStart
     Rarity <= Magic
     SetTextColor 255 129 129
     SetBackgroundColor 0 0 0 150
-Show # HiddenStart
+Hide # HiddenStart
 	DropLevel <= 42
 	ItemLevel <= 42
 	Class "Life Flasks"
@@ -2673,7 +2673,7 @@ Show # HiddenStart
     Rarity <= Magic
     SetTextColor 255 129 129
     SetBackgroundColor 0 0 0 150
-Show # HiddenStart
+Hide # HiddenStart
 	DropLevel <= 50
 	ItemLevel <= 50
 	Class "Life Flasks"
@@ -2683,7 +2683,7 @@ Show # HiddenStart
     SetBackgroundColor 0 0 0 150
 
 ## Life flasks high level
-Show # HiddenStart
+Hide # HiddenStart
 	DropLevel <= 50
 	ItemLevel <= 50
 	BaseType "Sanctified Life Flask"
@@ -2691,7 +2691,7 @@ Show # HiddenStart
     SetTextColor 255 129 129
     SetBackgroundColor 0 0 0 150
     SetBorderColor 255 129 129 150
-Show # HiddenStart
+Hide # HiddenStart
 	DropLevel <= 60
 	ItemLevel <= 60
 	BaseType "Divine Life Flask"
@@ -2699,7 +2699,7 @@ Show # HiddenStart
     SetTextColor 255 129 129
     SetBackgroundColor 0 0 0 150
     SetBorderColor 255 129 129 150
-Show # HiddenStart
+Hide # HiddenStart
 	DropLevel <= 65
 	ItemLevel <= 65
 	BaseType "Eternal Life Flask"
@@ -2717,7 +2717,7 @@ Hide # HiddenAlways
     SetBorderColor 255 129 129 150
 
 ## Mana flasks
-Show # HiddenStart
+Hide # HiddenStart
 	DropLevel <= 65
 	ItemLevel <= 65
 	Quality > 0
@@ -2726,7 +2726,7 @@ Show # HiddenStart
     SetTextColor 0 175 255
     SetBackgroundColor 0 0 0 150
     SetBorderColor 0 175 255 150
-Show # HiddenStart
+Hide # HiddenStart
 	DropLevel <= 3
 	ItemLevel <= 3
 	Class "Mana Flasks"
@@ -2734,7 +2734,7 @@ Show # HiddenStart
     Rarity <= Magic
     SetTextColor 0 175 255
     SetBackgroundColor 0 0 0 150
-Show # HiddenStart
+Hide # HiddenStart
 	DropLevel <= 6
 	ItemLevel <= 6
 	Class "Mana Flasks"
@@ -2742,7 +2742,7 @@ Show # HiddenStart
     Rarity <= Magic
     SetTextColor 0 175 255
     SetBackgroundColor 0 0 0 150
-Show # HiddenStart
+Hide # HiddenStart
 	DropLevel <= 12
 	ItemLevel <= 12
 	Class "Mana Flasks"
@@ -2750,7 +2750,7 @@ Show # HiddenStart
     Rarity <= Magic
     SetTextColor 0 175 255
     SetBackgroundColor 0 0 0 150
-Show # HiddenStart
+Hide # HiddenStart
 	DropLevel <= 18
 	ItemLevel <= 18
 	Class "Mana Flasks"
@@ -2758,7 +2758,7 @@ Show # HiddenStart
     Rarity <= Magic
     SetTextColor 0 175 255
     SetBackgroundColor 0 0 0 150
-Show # HiddenStart
+Hide # HiddenStart
 	DropLevel <= 24
 	ItemLevel <= 24
 	Class "Mana Flasks"
@@ -2766,7 +2766,7 @@ Show # HiddenStart
     Rarity <= Magic
     SetTextColor 0 175 255
     SetBackgroundColor 0 0 0 150
-Show # HiddenStart
+Hide # HiddenStart
 	DropLevel <= 30
 	ItemLevel <= 30
 	Class "Mana Flasks"
@@ -2774,7 +2774,7 @@ Show # HiddenStart
     Rarity <= Magic
     SetTextColor 0 175 255
     SetBackgroundColor 0 0 0 150
-Show # HiddenStart
+Hide # HiddenStart
 	DropLevel <= 36
 	ItemLevel <= 36
 	Class "Mana Flasks"
@@ -2782,7 +2782,7 @@ Show # HiddenStart
     Rarity <= Magic
     SetTextColor 0 175 255
     SetBackgroundColor 0 0 0 150
-Show # HiddenStart
+Hide # HiddenStart
 	DropLevel <= 42
 	ItemLevel <= 42
 	Class "Mana Flasks"
@@ -2790,7 +2790,7 @@ Show # HiddenStart
     Rarity <= Magic
     SetTextColor 0 175 255
     SetBackgroundColor 0 0 0 150
-Show # HiddenStart
+Hide # HiddenStart
 	DropLevel <= 50
 	ItemLevel <= 50
 	Class "Mana Flasks"
@@ -2800,7 +2800,7 @@ Show # HiddenStart
     SetBackgroundColor 0 0 0 150
 
 ## Mana flasks high level
-Show # HiddenStart
+Hide # HiddenStart
 	DropLevel <= 50
 	ItemLevel <= 50
 	BaseType "Sanctified Mana Flask"
@@ -2808,7 +2808,7 @@ Show # HiddenStart
     SetTextColor 0 175 255
     SetBackgroundColor 0 0 0 150
     SetBorderColor 0 175 255 150
-Show # HiddenStart
+Hide # HiddenStart
 	DropLevel <= 60
 	ItemLevel <= 60
 	BaseType "Divine Mana Flask"
@@ -2816,7 +2816,7 @@ Show # HiddenStart
     SetTextColor 0 175 255
     SetBackgroundColor 0 0 0 150
     SetBorderColor 0 175 255 150
-Show # HiddenStart
+Hide # HiddenStart
 	DropLevel <= 65
 	ItemLevel <= 65
 	BaseType "Eternal Mana Flask"
@@ -2834,7 +2834,7 @@ Hide # HiddenAlways
     SetBorderColor 0 175 255 150
 
 ## Hybrid flasks
-Show # HiddenStart
+Hide # HiddenStart
 	DropLevel <= 65
 	ItemLevel <= 65
 	Quality > 0
@@ -2843,7 +2843,7 @@ Show # HiddenStart
     SetTextColor 255 175 255
     SetBackgroundColor 0 0 0 150
     SetBorderColor 255 175 255 150
-Show # HiddenStart
+Hide # HiddenStart
 	DropLevel <= 20
 	ItemLevel <= 20
 	Class "Hybrid Flasks"
@@ -2851,7 +2851,7 @@ Show # HiddenStart
     Rarity <= Magic
     SetTextColor 255 175 255
     SetBackgroundColor 0 0 0 150
-Show # HiddenStart
+Hide # HiddenStart
 	DropLevel <= 30
 	ItemLevel <= 30
 	Class "Hybrid Flasks"
@@ -2859,7 +2859,7 @@ Show # HiddenStart
     Rarity <= Magic
     SetTextColor 255 175 255
     SetBackgroundColor 0 0 0 150
-Show # HiddenStart
+Hide # HiddenStart
 	DropLevel <= 40
 	ItemLevel <= 40
 	Class "Hybrid Flasks"
@@ -2867,7 +2867,7 @@ Show # HiddenStart
     Rarity <= Magic
     SetTextColor 255 129 129
     SetBackgroundColor 0 0 0 150
-Show # HiddenStart
+Hide # HiddenStart
 	DropLevel <= 50
 	ItemLevel <= 50
 	Class "Hybrid Flasks"
@@ -2875,7 +2875,7 @@ Show # HiddenStart
     Rarity <= Magic
     SetTextColor 255 175 255
     SetBackgroundColor 0 0 0 150
-Show # HiddenStart
+Hide # HiddenStart
 	DropLevel <= 60
 	ItemLevel <= 60
 	Class "Hybrid Flasks"
@@ -2883,7 +2883,7 @@ Show # HiddenStart
     Rarity <= Magic
     SetTextColor 255 129 255
     SetBackgroundColor 0 0 0 150
-Show # HiddenStart
+Hide # HiddenStart
 	DropLevel <= 60
 	ItemLevel <= 60
 	Class "Hybrid Flasks"
@@ -2900,7 +2900,7 @@ Hide # HiddenAlways
     SetBackgroundColor 0 0 0 150
     SetBorderColor 255 175 255 150
 
-Show # HiddenStart
+Hide # HiddenStart
 	DropLevel <= 40
 	ItemLevel <= 40
 	Rarity < Unique
@@ -2909,7 +2909,7 @@ Show # HiddenStart
 	SetBackgroundColor 50 50 50 255
 	SetBorderColor 33 33 33
 	SetFontSize 28
-Show # HiddenStart
+Hide # HiddenStart
 	DropLevel <= 40
 	ItemLevel <= 40
 	Rarity < Magic
@@ -2919,7 +2919,7 @@ Show # HiddenStart
 	SetBorderColor 33 33 33
 	SetTextColor 136 136 136 255
 	SetFontSize 20
-Show # HiddenStart
+Hide # HiddenStart
 	DropLevel <= 40
 	ItemLevel <= 40
 	Rarity < Unique
@@ -2967,7 +2967,7 @@ Show # HiddenLate
     PlayAlertSound 12 150
 
 ## Utility flasks
-Show # HiddenStart
+Hide # HiddenStart
     Class "Utility Flasks" "Critical Utility Flasks"
 	Rarity <= Magic
     SetTextColor 163 141 109
@@ -2998,7 +2998,7 @@ Show # HiddenLate
 	PlayAlertSound 12 150
 
 ## Life 1+ quality flask
-Show # HiddenStart
+Hide # HiddenStart
 	Quality >= 1
 	Class "Life Flasks"
     Rarity <= Magic
@@ -3030,7 +3030,7 @@ Show # HiddenLate
 	PlayAlertSound 12 150
 
 ## Mana 1+ quality flask
-Show # HiddenStart
+Hide # HiddenStart
 	Quality >= 1
 	Class "Mana Flasks"
 	Rarity <= Magic
@@ -3062,7 +3062,7 @@ Show # HiddenLate
 	PlayAlertSound 12 150
 
 ## Hybrid 1+ quality flask
-Show # HiddenStart
+Hide # HiddenStart
 	Quality >= 1
 	Class "Hybrid Flasks"
 	Rarity <= Magic
@@ -3126,17 +3126,17 @@ Show
 # Section: [27] @Links
 # †-----------------------------------------------------------------------------†
 
-Show # HiddenMid
+Hide # HiddenMid
 	Width = 2
 	Height >= 3
 	Rarity "Normal" "Magic"
     LinkedSockets = 4
 
-Show # HiddenMid
+Hide # HiddenMid
 	Rarity "Normal" "Magic"
     LinkedSockets = 4
 
-Show # HiddenStart
+Hide # HiddenStart
 	Rarity "Normal" "Magic"
     LinkedSockets = 3
 	SetFontSize 28
@@ -3183,7 +3183,7 @@ Show # HiddenLate
 
 ## Hiding trash
 
-Show # HiddenStart
+Hide # HiddenStart
     Rarity Rare
 	Identified False
 	ItemLevel < 60
@@ -3191,7 +3191,7 @@ Show # HiddenStart
 	SetBorderColor 255 242 0 150
 	SetFontSize 28
 	
-Show # HiddenStart
+Hide # HiddenStart
 	Class "Shields"
 	BaseType "Spirit Shield"
 	Rarity Rare
@@ -3199,7 +3199,7 @@ Show # HiddenStart
 
 
 
-Show # HiddenStart
+Hide # HiddenStart
 	Class "Claws" "Daggers" "Wands" "One Hand Swords" "Thrusting One Hand Swords" "One Hand Axes" "One Hand Maces" "Staves" "Two Hand Swords" "Two Hand Axes" "Two Hand Maces" "Shields" "Sceptres"
 	Width 2
     Rarity Rare
@@ -3207,7 +3207,7 @@ Show # HiddenStart
 	SetBackgroundColor 75 22 22
 	SetFontSize 34
 
-Show # HiddenStart
+Hide # HiddenStart
 	Class "Bows"
 	Height 4
     Rarity Rare
@@ -3215,14 +3215,14 @@ Show # HiddenStart
 	SetBackgroundColor 75 22 22
 	SetFontSize 34
 
-Show # HiddenStart
+Hide # HiddenStart
 	Class "Quivers"
     Rarity Rare
 	Identified False
 	SetBackgroundColor 75 22 22
 	SetFontSize 34
 
-Show # HiddenStart
+Hide # HiddenStart
 	Class "Thrusting One Hand Swords"
     Rarity Rare
 	Identified False
@@ -3233,7 +3233,7 @@ Show # HiddenStart
 
 
 ### All identified magic items
-Show # HiddenStart
+Hide # HiddenStart
 	Rarity Magic
 	Identified True
     SetBackgroundColor 17 17 17 150
@@ -3242,7 +3242,7 @@ Show # HiddenStart
 ## Hiding everything else of little to no value.
 
 ### All normal jewellery
-Show # HiddenStart
+Hide # HiddenStart
 	Class "Amulets" "Rings" "Belts"
 	Rarity "Normal"
     SetBackgroundColor 17 17 17 255
@@ -3250,7 +3250,7 @@ Show # HiddenStart
 	SetFontSize 30
 
 ### All normal items
-Show # HiddenStart
+Hide # HiddenStart
 	Class "Claws" "Daggers" "Wands" "One Hand Swords" "Thrusting One Hand Swords" "One Hand Axes" "One Hand Maces" "Bows" "Staves" "Two Hand Swords" "Two Hand Axes" "Two Hand Maces" "Quivers" "Gloves" "Boots" "Body Armours" "Helmets" "Shields" "Sceptres"
 	Rarity "Normal"
 	SetBackgroundColor 50 50 50 0
@@ -3258,7 +3258,7 @@ Show # HiddenStart
 	SetFontSize 24
 
 ### All unidentified magic items & jewellery
-Show # HiddenStart
+Hide # HiddenStart
 	Class "Amulets" "Rings" "Claws" "Daggers" "Wands" "One Hand Swords" "Thrusting One Hand Swords" "One Hand Axes" "One Hand Maces" "Bows" "Staves" "Two Hand Swords" "Two Hand Axes" "Two Hand Maces" "Quivers" "Belts" "Gloves" "Boots" "Body Armours" "Helmets" "Shields" "Sceptres"
 	Rarity "Magic"
 	SetBackgroundColor 50 50 50 0
