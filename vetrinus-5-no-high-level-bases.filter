@@ -517,7 +517,7 @@ Show
 Show
 	Class "Misc Map Items"
 	BaseType "Timeworn Reliquary Key"
-	MinimapIcon 0 White Circlet
+	MinimapIcon 0 White Circle
 	PlayEffect White
 	SetFontSize 45
 	PlayAlertSound 5 300
@@ -1234,7 +1234,7 @@ Hide # HiddenStart # Support Gems: str # "Cast when Damage Taken Support"
 	
 Hide # HiddenStart # Support Gems: dex
 	Class "Gem"
-	BaseType "Added Cold Damage Support" "Additional Accuracy Support" "Blind Support" "Block Chance Reduction Support" "Cast On Critical Strike Support" "Cast on Death Support" "Chain Support" "Chance to Flee Support" "Cluster Traps Support" "Cold Penetration Support" "Culling Strike Support" "Deadly Ailments Support" "Enhance Support" "Faster Attacks Support" "Faster Projectiles Support" "Fork Support" "Greater Multiple Projectiles Support" "Hypothermia Support" "Ice Bite Support" "Lesser Multiple Projectiles Support" "Lesser Poison Support" "Mana Leech Support" "Mirage Archer Support" "Multiple Traps Support" "Onslaught Support" "Physical Projectile Attack Damage Support" "Pierce Support" "Point Blank Support" "Poison Support" "Slower Projectiles Support" "Swift Affliction Support" "Trap and Mine Damage Support" "Trap Support" "Vile Toxins Support" "Void Manipulation Support" "Volley Support" "Charged Traps Support" "Advanced Traps Support"
+	BaseType "Added Cold Damage Support" "Additional Accuracy Support" "Blind Support" "Block Chance Reduction Support" "Cast On Critical Strike Support" "Cast on Death Support" "Chain Support" "Chance to Flee Support" "Cluster Traps Support" "Cold Penetration Support" "Culling Strike Support" "Deadly Ailments Support" "Enhance Support" "Faster Attacks Support" "Faster Projectiles Support" "Fork Support" "Greater Multiple Projectiles Support" "Hypothermia Support" "Ice Bite Support" "Lesser Multiple Projectiles Support" "Lesser Poison Support" "Mana Leech Support" "Mirage Archer Support" "Multiple Traps Support" "Onslaught Support" "Vicious Projectiles Support" "Pierce Support" "Point Blank Support" "Poison Support" "Slower Projectiles Support" "Swift Affliction Support" "Trap and Mine Damage Support" "Trap Support" "Vile Toxins Support" "Void Manipulation Support" "Volley Support" "Charged Traps Support" "Advanced Traps Support"
 	SetFontSize 36
 	SetBackgroundColor 40 60 40 230
 	SetBorderColor 50 230 100
